@@ -1,5 +1,5 @@
 1. Which of the following escape sequences would you use to add double-quotes to your literal string?
-\"
+ ""\"""
 
 2. Which of the following lines of code correctly uses string interpolation assuming that the variable value is a string?
  ```C#
