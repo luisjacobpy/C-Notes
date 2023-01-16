@@ -8,3 +8,51 @@ Console.WriteLine(firstNumber + secondNumber);
 ```
 ## Step 2: Mix data types to force implicit type conversions
 
+```C#
+// Mix Data
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine(firstName + " sold " + widgetsSold + " widgets.");
+```
+Output
+```BASH
+Bob sold 7 widgets.
+```
+
+## Add parentheses
+
+```C#
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
+```  
+
+Output
+```BASH
+Bob sold 14 widgets.
+```
+
+# Basic Math Operations
+```C#
+int sum = 7 + 5;
+int difference = 7 - 5;
+int product = 7 * 5;
+int quotient = 7 / 5;
+
+Console.WriteLine("Sum: " + sum);
+Console.WriteLine("Difference: " + difference);
+Console.WriteLine("Product: " + product);
+Console.WriteLine("Quotient: " + quotient);
+```
+Output
+```BASH
+Sum: 12
+Difference: 2
+Product: 35
+Quotient: 1
+```
+
++ is the addition operator
+- is the subtraction operator
+* is the multiplication operator
+/ is the division operator
