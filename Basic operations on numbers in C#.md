@@ -56,3 +56,28 @@ Quotient: 1
 - is the subtraction operator
 * is the multiplication operator
 / is the division operator
+
+## Division using literal decimal data
+
+```C#
+decimal decimalQuotient = 7.0m / 5;
+Console.WriteLine("Decimal quotient: " + decimalQuotient);
+```
+Output
+```BASH
+Decimal quotient: 1.4
+```
+
+## Add code perform division using literal decimal data
+```C#
+int first = 7;
+int second = 5;
+decimal quotient = (decimal)first / (decimal)second;
+Console.WriteLine(quotient);
+
+```
+Output
+```BASH
+1.4
+```
+
